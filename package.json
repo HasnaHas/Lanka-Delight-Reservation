@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "axios": "^1.13.2",
-    "bcryptjs": "^3.0.3",
-    "em": "^0.0.2",
-    "jsonwebtoken": "^9.0.2",
-    "react-hot-toast": "^2.6.0"
-  }
-}
