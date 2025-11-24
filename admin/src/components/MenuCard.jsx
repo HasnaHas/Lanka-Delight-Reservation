@@ -67,12 +67,12 @@ const MenuCard = ({ menu, onDelete, onEdit }) => {
           <div className="flex-1 flex items-center gap-4">
             {menu.image && (
               <img
-                src={`${import.meta.env.VITE_BACKEND_URL}/uploads/${menu.image}`} 
+                src={`http://localhost:5000/uploads/${menu.image}`}
                 alt={menu.name}
                 className="w-10 h-10 object-cover rounded"
               />
             )}
-            <div className="grid grid-cols-4 gap-4 items-center text-sm flex-1">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-sm flex-1">
               <div><strong>Name:</strong> {menu.name}</div>
               <div><strong>Description:</strong> {menu.description}</div>
               <div><strong>Category:</strong> {menu.category}</div>
