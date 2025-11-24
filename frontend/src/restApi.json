@@ -1,0 +1,100 @@
+{
+    "data": [
+        {
+           "dishes": [
+        {
+          "id": 1,
+          "image": "/hoppers1.jpg",
+          "title": "HOPPERS",
+          "category": "Breakfast",
+          "description": "A bowl-shaped pancake made from fermented rice flour, perfect with coconut sambol and curry."
+        },
+        {
+          "id": 2,
+          "image": "/kottu.png",
+          "title": "KOTTU ROTI",
+          "category": "Lunch",
+          "description": "Chopped roti mixed with vegetables, eggs, and meat or seafood, spiced to perfection."
+        },
+        {
+          "id": 3,
+          "image": "/fish.png",
+          "title": "FISH AMBUL THIYAL",
+          "category": "Dinner",
+          "description": "A tangy and spicy fish curry, slow-cooked with authentic Sri Lankan spices."
+        },
+        {
+          "id": 4,
+          "image": "/rice.png",
+          "title": "LAMPRAIS",
+          "category": "Dinner",
+          "description": "A Dutch-influenced Sri Lankan dish with rice, meat, and accompaniments wrapped in banana leaf."
+        },
+        {
+          "id": 5,
+          "image": "/shopper.png",
+          "title": "STRING HOPPERS",
+          "category": "Breakfast",
+          "description": "Steamed rice flour noodles served with coconut sambol and curry."
+        },
+        {
+          "id": 6,
+          "image": "/chicken.png",
+          "title": "DEVILLED CHICKEN",
+          "category": "Dinner",
+          "description": "Spicy stir-fried chicken cooked with chili, onions, and Sri Lankan spices."
+        }
+      ],
+
+            "team": [
+                {
+                    "id": 1,
+                    "image": "./member1.png",
+                    "name": "NIMAL FERNANDO",
+                    "designation": "Founder & Head Chef"
+                },
+                {
+                    "id": 2,
+                    "image": "./member2.png",
+                    "name": "PRIYA SILVA",
+                    "designation": "Sous Chef"
+                },
+                {
+                    "id": 3,
+                    "image": "./member3.png",
+                    "name": "SANJEEV RAJAPAKSE",
+                    "designation": "Spice Master"
+                },
+                {
+                    "id": 4,
+                    "image": "./team_member_4.png",
+                    "name": "KUMARI PERERA",
+                    "designation": "Pastry Chef"
+                }
+            ],
+          
+            "who_we_are": [
+                {
+                    "id": 1,
+                    "number": "18",
+                    "title": "Restaurants"
+                },
+                {
+                    "id": 2,
+                    "number": "20",
+                    "title": "Master Chefs"
+                },
+                {
+                    "id": 3,
+                    "number": "6",
+                    "title": "Years Of Excellence"
+                },
+                {
+                    "id": 4,
+                    "number": "300",
+                    "title": "Sri Lankan Dishes"
+                }
+            ]
+        }
+    ]
+}
