@@ -11,7 +11,7 @@ import { dbConnection } from "./database/dbConnection.js";
 const app = express();
 dotenv.config();
 
-const allowedOrigins = ["http://localhost:5173", "http://localhost:5174"];
+const allowedOrigins = ["http://localhost:5173", "http://localhost:5174","https://lanka-delight-reservation-v5hl.vercel.app" ];
 app.use(cors({
   origin: function(origin, callback){
     // allow requests with no origin (like Postman)
