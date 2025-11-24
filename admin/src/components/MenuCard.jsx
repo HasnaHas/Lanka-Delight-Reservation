@@ -72,7 +72,7 @@ const MenuCard = ({ menu, onDelete, onEdit }) => {
                 className="w-10 h-10 object-cover rounded"
               />
             )}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-sm flex-1">
+            <div className="grid grid-cols-4 gap-4 items-center text-sm flex-1">
               <div><strong>Name:</strong> {menu.name}</div>
               <div><strong>Description:</strong> {menu.description}</div>
               <div><strong>Category:</strong> {menu.category}</div>
