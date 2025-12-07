@@ -4,7 +4,7 @@ const HeroSection = () => {
   // Smooth scroll function to Reservation section
   const scrollToReservation = () => {
     const element = document.getElementById("reservation");
-    const navbarHeight = 80; // Adjust if your navbar height is different
+    const navbarHeight = 80; 
     if (element) {
       const elementPosition = element.getBoundingClientRect().top + window.scrollY;
       const offsetPosition = elementPosition - navbarHeight;
